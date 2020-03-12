@@ -1,0 +1,63 @@
+.dropdown-menu-header {
+    color: #fff;
+    margin-top: -.65rem;
+    margin-bottom: .65rem;
+    position: relative;
+    z-index: 6;
+}
+
+.dropdown-menu-header .dropdown-menu-header-inner {
+    margin: -1px -1px 0;
+    padding: 1.5rem .5rem;
+    position: relative;
+}
+
+.bg-mean-fruit {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%) !important;
+}
+
+.dropdown-menu-header .menu-header-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 8;
+    opacity: .25;
+    filter: grayscale(80%);
+    background-size: cover;
+}
+
+.dropdown-menu-header .menu-header-content {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.menu-header-title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.menu-header-subtitle {
+    font-size: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 5px 0 0;
+    opacity: .8;
+}
+
+.country-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+}
+
+img {
+    object-fit: contain;
+    max-height: 150px;
+}

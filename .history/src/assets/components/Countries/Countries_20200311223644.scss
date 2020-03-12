@@ -1,0 +1,23 @@
+.countries{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+   }
+
+   
+  .col-md-4 {
+    -webkit-box-flex: 0;
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+  }
