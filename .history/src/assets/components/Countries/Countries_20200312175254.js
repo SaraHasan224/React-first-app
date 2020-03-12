@@ -48,12 +48,13 @@ class Countries extends Component {
                             })
                         }
                     </div>
-                </section>
                     {
                         this.state.allCountries.length > this.state.visibleCountries.length && (
                             <button  className="button button--secondary button--load"  onClick={this.loadMoreCountries}>{CData.loadButton}</button>
                         )
                     }
+                </section>
+                
             </div>
         )
     }
