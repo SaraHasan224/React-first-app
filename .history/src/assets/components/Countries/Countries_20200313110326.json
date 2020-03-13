@@ -1,0 +1,5 @@
+{
+    "title" : "List all countries",
+    "loadButton" :   "Load More..",
+    "countryBtnText" : 'View'
+}

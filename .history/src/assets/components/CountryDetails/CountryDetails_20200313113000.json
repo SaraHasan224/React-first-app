@@ -1,0 +1,14 @@
+{
+    "backBtn": "< Back to the list",
+    
+    "description": {
+      "descriptionTitle": "Description:",
+      "languages": "Languages: ",
+      "currencies": "Currencies: ",
+      "capital": "Capital: "
+    },
+  
+    "mapTitle": "Map:",
+    "borderCountries": "Bordering countries: ",
+    "noborderCountriesFound": "This country has no bordering countries."
+  }
